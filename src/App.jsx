@@ -1,13 +1,11 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
-
   return (
-      <div>
-          <h1 className="text-red-500">Red</h1>
-          <h1 className="text-green-500">Green</h1>
-          <h1 className="text-blue-500">Blue</h1>
-      </div>
+    <main className="bg-black min-h-screen">
+      <NavBar />
+    </main>
   );
 }
 
